@@ -174,16 +174,28 @@
             </div>
         </div>
 
+        <div id="overlay" onclick="close()"></div>
+
         <div id="Projets" class="container mt-5 ">
             <h1 class="fs-1">Mes Projets</h1>
             <p class="fs-5 ">Voici quelques uns de mes projets que j'ai réalisés durant ma formation. (Source Code)</p>
             <div class="projet m-3 mt-5">
+                
+                <div id="popUp">
+                    <h1>Site E-Commerce</h1>
+                    <img src="img/ecommerce.png"></img>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quaerat quo molestiae quasi ratione itaque eveniet recusandae. Totam dolorum, officiis quaerat fuga, quo distinctio dicta amet ullam quas sunt ducimus.</p>
+                </div>
+
                 <div class="cartes ">
-                    <div class="carte">
+
+                    <div class="carte" onclick="popUp();" >
                         <img src="img/ecommerce.png"></img>
-                        <a href="https://gitlab.com/boubacar5/portfolio" target="_blank"><span>Site
-                                E-commerce</span></a>
+                        
+                        <a href="https://gitlab.com/boubacar5/portfolio" target="_blank"><span>Site E-commerce</span></a>
+                     
                     </div>
+
                     <div class="carte">
                         <img src="img/login.png"></img>
                         <a href="https://github.com/boubacargadio/JavaSpring/tree/master/src/main/java/com/example/javaspringexo/autorisations"

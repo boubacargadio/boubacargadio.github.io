@@ -351,6 +351,37 @@ strong {
     gap: 2rem;
 }
 
+
+
+#overlay {
+    position: fixed; 
+    display: none;
+    width: 100wv;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5); 
+    z-index: 2; 
+}
+  
+#popUp {
+    display: none;
+    position: absolute;
+    left: 33%;
+    right: 33%;
+    width: 30%;
+    height: auto;
+    padding: 1%;
+    z-index: 3;
+    background-color: #ffffff;
+
+  }
+
+
+
+
 .projet img {
     border-top-left-radius: 0.8rem;
     border-top-right-radius: 0.8rem;
@@ -418,9 +449,5 @@ footer img{
     border-radius: 50%;
     margin-right:0.5rem ;
     margin-bottom: 0.5rem;
-
-}
-
-.container{
 
 }
