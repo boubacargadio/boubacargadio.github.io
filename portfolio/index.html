@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@latest/font/bootstrap-icons.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <link href="style.css" rel="stylesheet">
+
+    <script src="script.js"></script>
+    <title>👨🏾‍💻 boubacargadio</title>
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="img/mylogo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link" href="#Presentation">À Propos</a>
+                    <a class="nav-item nav-link" href="#Competence">Skills</a>
+                    <a class="nav-item nav-link" href="#Projets">Projets</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div>
+        <img src="img/micheAngelo.jpg" class="micheAngelo" />
+
+        <div class="col-md-12 bienvenue">
+            <div class="miniBox">
+                <div class="textBox ">
+                    Salut! C'est Boubacar, Développeur Full-Stack.
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="Presentation" class="container">
+        <div class="row mt-5 ">
+            <h1 class="fs-1"> À Propos</h1>
+            <div class="col-md-6 d-flex justify-content-center align-items-center fs-6 text-wrap text-justify">
+                <div>
+                    <p class="apropos">Je suis Boubacar, j'ai 22 ans. Après avoir achevé mes années lycéennes en
+                        Toscane, j'ai posé mes valises à Grenoble. Passionné par le monde de la programmation, je me
+                        spécialise en tant que Concepteur Développeur d’Applications Spécialiste Java. Actuellement en
+                        quête d'une opportunité d'<strong>alternance à partir de mars 2024. </strong> Merci de votre
+                        visite!</p>
+
+                    <div class="d-flex justify-content-center socials">
+                        <a href="https://www.linkedin.com/in/boubacar-gadio/" target="_blank"><i
+                                class="bi bi-linkedin"></i></a>
+                        <a href="mailto:boubacar.gadio@le-campus-numerique.fr"><i class="bi bi-envelope-at"></i> </a>
+                        <a href="https://github.com/boubacargadio/" target="_blank"><i class="bi bi-github"></i> </a>
+                    </div>
+
+                    <a href="https://drive.google.com/file/d/1FH0jVOVU2RsS0okukoOVcS6PMBZwrGKZ/view" target="_blank"
+                        download>
+                        <button class=" p-2 fs-5 cv" id="cv">Télécharger Mon CV</button>
+                    </a>
+
+                </div>
+            </div>
+            <div class="col-md-6 zoom-out">
+                <img src="img/bouba.jpg" class="boubaimg" />
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="Competence" class="container mt-5 ">
+        <h1 class="fs-1">Skills</h1>
+        <div class="">
+
+            <div class="row ">
+
+                <div class="d-flex justify-content-center col-md-6">
+                    <img src="img/chevalier.gif" class="videoBack" autoplay loop mute></img>
+                </div>
+
+                <div class=" mt-3 col-md-6 d-flex justify-content-center align-items-center ">
+                    <div class="languages ">
+                        <div class="listes container">
+
+
+                            <div class="d-flex justify-content-start align-items-center">
+                                <img src="imgLanguage/mongodb-original.svg" alt="Mongo DB">
+                                <span>Mongo DB</span>
+                            </div>
+                            <div class="d-flex justify-content-start align-items-center">
+                                <img src="imgLanguage/file-type-mysql.svg" alt="MySQL">
+                                <span>MySQL</span>
+                            </div>
+                            <div class="d-flex justify-content-start align-items-center">
+                                <img src="imgLanguage/docker.svg" alt="Docker">
+                                <span>Docker</span>
+                            </div>
+
+                            <div class="d-flex justify-content-start align-items-center">
+                                <img src="imgLanguage/file-type-js.svg" alt="JavaScript">
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="d-flex justify-content-start align-items-center">
+                                <img src="imgLanguage/react-original-wordmark.svg" alt="React">
+                                <span>React</span>
+                            </div>
+                            <div class="d-flex justify-content-start align-items-center">
+                                <img src="imgLanguage/file-type-typescript.svg" alt="TypeScript">
+                                <span>TypeScript</span>
+                            </div>
+
+                            <div class="d-flex justify-content-start align-items-center">
+                                <img src="imgLanguage/java-original.svg" alt="Java">
+                                <span>Java</span>
+                            </div>
+                            <div class="d-flex justify-content-start align-items-center">
+                                <img src="imgLanguage/spring.svg" alt="Spring Boot">
+                                <span>Spring Boot</span>
+                            </div>
+
+                            <div class="d-flex justify-content-start align-items-center">
+                                <img src="imgLanguage/brand-symfony.svg" alt="Symfony">
+                                <span>Symfony</span>
+                            </div>
+
+                            <div class="d-flex justify-content-start align-items-center">
+                                <img src="imgLanguage/php-plain.svg" alt="PHP">
+                                <span>PHP</span>
+                            </div>
+
+                            <div class="d-flex justify-content-start align-items-center">
+                                <img src="imgLanguage/github.svg" alt="GitHub">
+                                <span>GitHub</span>
+                            </div>
+
+                            <div class="d-flex justify-content-start align-items-center">
+                                <img src="imgLanguage/bootstrap.svg" alt="Bootstrap">
+                                <span>Bootstrap</span>
+                            </div>
+                            <div class="d-flex justify-content-start align-items-center">
+                                <img src="imgLanguage/html-5.svg" alt="HTML">
+                                <span>HTML</span>
+                            </div>
+                            <div class="d-flex justify-content-start align-items-center">
+                                <img src="imgLanguage/css-3.svg" alt="CSS">
+                                <span>CSS</span>
+                            </div>
+                            <div class="d-flex justify-content-start align-items-center">
+                                <img src="imgLanguage/figma.svg" alt="Figma">
+                                <span>Figma</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <div id="Projets" class="container mt-5 ">
+            <h1 class="fs-1">Mes Projets</h1>
+            <p class="fs-5 ">Voici quelques uns de mes projets que j'ai réalisés durant ma formation. (Source Code)</p>
+            <div class="projet m-3 mt-5">
+                <div class="cartes ">
+                    <div class="carte">
+                        <img src="img/ecommerce.png"></img>
+                        <a href="https://gitlab.com/boubacar5/portfolio" target="_blank"><span>Site
+                                E-commerce</span></a>
+                    </div>
+                    <div class="carte">
+                        <img src="img/login.png"></img>
+                        <a href="https://github.com/boubacargadio/JavaSpring/tree/master/src/main/java/com/example/javaspringexo/autorisations"
+                            target="_blank"><span>Login - Security Spring</span></a>
+                    </div>
+                    <div class="carte">
+                        <img src="img/meal_Db.png"></img>
+                        <a href="https://gitlab.com/boubacar5/cuisineapi.git" target="_blank"><span>Conception Api -
+                                "The Meal DB"</span></a>
+                    </div>
+                    <div class="carte">
+                        <img src="imgLanguage/java-original.svg"></img>
+                        <a href="https://github.com/boubacargadio/JavaExo/tree/boubacar/src"
+                            target="_blank"><span>Conception POO - Java</span></a>
+                    </div>
+                    <div class="carte">
+                        <img src="imgLanguage/brand-symfony.svg"></img>
+                        <a href="https://gitlab.com/boubacar5/jeucarresymfony.git" target="_blank"><span>Project
+                                Symfony</span></a>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+</body>
+<footer class=" p-3 mt-5">
+    <div class="d-flex justify-content-center social">
+        <a href="https://www.linkedin.com/in/boubacar-gadio/" target="_blank"><i class="bi bi-linkedin"></i></a>
+        <a href="mailto:boubacar.gadio@le-campus-numerique.fr"><i class="bi bi-envelope-at"></i> </a>
+        <a href="https://github.com/boubacargadio/" target="_blank"><i class="bi bi-github"></i> </a>
+    </div>
+    <div class="d-flex justify-content-center align-items-center footer">
+        <img src="img/bouba.jpg">
+        <p class="mail">boubacar.gadio@le-campus-numerique.fr</p>
+    </div>
+</footer>
+
+</html>
