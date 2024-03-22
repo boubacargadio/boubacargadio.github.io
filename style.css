@@ -343,6 +343,7 @@ strong {
 .carte:hover {
     transform: scale(1.05);
     box-shadow: 10px 10px 5px rgb(109, 109, 109);
+    cursor:pointer ;
 }
 
 .cartes {
@@ -352,35 +353,88 @@ strong {
 }
 
 
-
-#overlay {
-    position: fixed; 
+#overlay1, #overlay2, #overlay3, #overlay4, #overlay5{
     display: none;
-    width: 100wv;
+    position: fixed;
+    width: 100%;
     height: 100vh;
     top: 0;
     left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0,0,0,0.5); 
-    z-index: 2; 
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+
 }
-  
-#popUp {
+
+.pop-up {
     display: none;
-    position: absolute;
-    left: 33%;
-    right: 33%;
-    width: 30%;
-    height: auto;
-    padding: 1%;
-    z-index: 3;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
     background-color: #ffffff;
+    border-radius: 1rem ;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 2;
+    width: 50%;
+}
 
-  }
+.pop-up .imgProjet {
+    max-width: 300px;
+    max-height: 200px;
+    border-radius: 1rem;
+}
 
+.pop-up .imgGit {
+    width: 100px;
+    max-height: 70px;
+    border-radius: 1rem; 
+}
+.lien{
+    position: absolute;
+    top: 7rem;
+    right: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.fermer{
+    border: 1px solid black;
+    background-color: transparent;
+    width: 70px;
+    height: 25px;
+    border-radius: 1rem;
+    font-size: 0.8rem;
+    position: absolute;
+    top: 2rem;
+    right: 1rem;
+}
 
+.fermer:hover{
+    background-color: #ff8686;
+    color: white;
+    border: none;
+}
+
+.lienSource{
+   
+    width: 200px;
+    height: 40px;
+    border-radius: 1rem;
+    border: none;
+    color: #000000;
+    border: 1px solid black;
+    box-shadow: 10 5 10px rgb(0, 0, 0);
+    background-color: #000000;
+    color: #ffffff;
+
+}
+.lienSource:hover{
+    background-color: rgb(61, 61, 61);
+    box-shadow: inset 0 0 20px #000000;
+}
 
 .projet img {
     border-top-left-radius: 0.8rem;

@@ -99,7 +99,6 @@
                     <div class="languages ">
                         <div class="listes container">
 
-
                             <div class="d-flex justify-content-start align-items-center">
                                 <img src="imgLanguage/mongodb-original.svg" alt="Mongo DB">
                                 <span>Mongo DB</span>
@@ -173,53 +172,155 @@
 
             </div>
         </div>
+    </div>
 
-        <div id="overlay" onclick="close()"></div>
+    <div class="popUps">
 
-        <div id="Projets" class="container mt-5 ">
-            <h1 class="fs-1">Mes Projets</h1>
-            <p class="fs-5 ">Voici quelques uns de mes projets que j'ai réalisés durant ma formation. (Source Code)</p>
-            <div class="projet m-3 mt-5">
-                
-                <div id="popUp">
-                    <h1>Site E-Commerce</h1>
+        <div id="overlay1" onclick="closePopUp1()"> </div>
+        <div class="pop-up " id="popUp1">
+           
+            <h1 class="text-center fs-2">Site E-Commerce</h1>
+            <button class="fermer" onclick="closePopUp1()">Fermer</button>
+            <img src="img/ecommerce.png" class="mt-3 imgProjet col-md-6" alt="E-commerce Image">
+
+            <div class="lien">
+                <img src="imgLanguage/github.svg" class="imgGit">
+                <a href="https://gitlab.com/boubacar5/portfolio" target="_blank">
+                    <button class="lienSource">Source Code </button> </a>
+            </div>
+            <p class="mt-3">Mon projet récent en tant que développeur consiste en la création d'un portfolio interactif
+                intégrant une boutique de livres fictifs. En utilisant React.js pour le front-end et PHP pour le
+                back-end, j'ai développé une interface dynamique permettant aux utilisateurs de parcourir, acheter, et
+                effectuer des paiements sécurisés via l'intégration de Stripe. Pour faciliter la gestion du contenu,
+                j'ai ajouté une interface administrateur qui permet aux administrateurs d'ajouter, mettre à jour, ou
+                supprimer des livres en vente. La communication entre le front-end et le back-end est assurée par Axios,
+                garantissant des échanges de données fluides.</p>
+
+
+        </div>
+
+        <div id="overlay2" onclick="closePopUp2()"> </div>
+        <div class="pop-up" id="popUp2">
+            <h1 class="text-center fs-2">Login - Security Spring</h1>
+            <button class="fermer" onclick="closePopUp2()">Fermer</button>
+
+            <img src="img/login.png" class="mt-3 imgProjet" alt="E-commerce Image">
+            <div class="lien">
+                <img src="imgLanguage/github.svg" class="imgGit">
+                <a href="https://github.com/boubacargadio/JavaSpring/tree/master/src/main/java/com/example/javaspringexo/autorisations"
+                    target="_blank"> <button class="lienSource"> Source Code </button> </a>
+            </div>
+            <p class="mt-3">Dans mon récent projet, j'ai développé une application en utilisant Spring Boot avec une
+                emphase particulière sur la sécurité. En intégrant le starter Spring Security, j'ai configuré
+                l'authentification dans Spring pour garantir un accès sécurisé à l'application. Pour renforcer la
+                sécurité, j'ai mis en œuvre la génération d'un token JWT (JSON Web Token), puis j'ai géré le traitement
+                du token à l'aide d'un filtre dédié. Ce filtre assure la validation et l'authentification des
+                utilisateurs à chaque requête, offrant ainsi une protection accrue. De plus, j'ai sécurisé différentes
+                ressources en attribuant des rôles aux utilisateurs, assurant ainsi un contrôle d'accès approprié.
+            </p>
+
+        </div>
+
+        <div id="overlay3" onclick="closePopUp3()"> </div>
+        <div class="pop-up" id="popUp3">
+            <h1 class="text-center fs-2">Conception Api -
+                "The Meal DB"</h1>
+            <button class="fermer" onclick="closePopUp3()">Fermer</button>
+
+            <img src="img/meal_Db.png" class="mt-3 imgProjet"></img>
+            <div class="lien">
+                <img src="imgLanguage/github.svg" class="imgGit">
+                <a href="https://gitlab.com/boubacar5/cuisineapi.git" target="_blank"> <button class="lienSource">
+                        Source Code </button> </a>
+            </div>
+            <p class="mt-3">En utilisant JavaScript, j'ai développé une barre de recherche qui permet aux utilisateurs
+                de rechercher des recettes dans la base de données de TheMealDB. Lorsqu'une recherche est effectuée, les
+                détails de la recette correspondante s'affichent. De plus, j'ai intégré une fonctionnalité permettant
+                d'obtenir jusqu'à six recettes aléatoires lorsqu'un utilisateur clique sur le bouton dédié. Chaque
+                résultat de recherche ou recette aléatoire est présenté sous forme de carte, comprenant une image, le
+                nom de la recette, et un lien pour afficher plus d'informations.
+            </p>
+
+        </div>
+
+        <div id="overlay4" onclick="closePopUp4()"> </div>
+        <div class="pop-up" id="popUp4">
+            <h1 class="text-center fs-2">Conception POO - Java</h1>
+            <button class="fermer" onclick="closePopUp4()">Fermer</button>
+
+            <img src="imgLanguage/java-original.svg" class="mt-3 imgProjet" alt="E-commerce Image">
+            <div class="lien ">
+                <img src="imgLanguage/github.svg" class="imgGit">
+                <a href="https://github.com/boubacargadio/JavaExo/tree/boubacar/src" target="_blank"> <button
+                        class="lienSource"> Source Code </button> </a>
+            </div>
+            <p class="mt-3">Le jeu Tic Tac Toe est conçu avec une approche de conception orientée objet (POO) en Java.
+                Les classes clés telles que Game, Cell, et Player encapsulent des fonctionnalités spécifiques. La classe
+                Game gère la logique du jeu avec des méthodes comme move(), isValidMove(), et checkPlayerWin(). La
+                classe Player définit les caractéristiques individuelles des joueurs. Cette structure favorise une
+                organisation claire et modulaire du code, améliorant la lisibilité et la maintenance du projet.
+            </p>
+
+        </div>
+
+        <div id="overlay5" onclick="closePopUp5()"> </div>
+        <div class="pop-up" id="popUp5">
+            <h1 class="text-center fs-2">Projet Symfony</h1>
+            <button class="fermer" onclick="closePopUp5()">Fermer</button>
+
+            <img src="imgLanguage/brand-symfony.svg" class="mt-3 imgProjet" alt="E-commerce Image">
+            <div class="lien ">
+                <img src="imgLanguage/github.svg" class="imgGit">
+                <a href="https://gitlab.com/boubacar5/jeucarresymfony.git" target="_blank"> <button class="lienSource">
+                        Source Code </button></a>
+            </div>
+            <p class="mt-3">
+                Dans ce projet Symfony, j'ai commencé par configurer une base de données MySQL en utilisant les
+                commandes Symfony. J'ai ensuite créé une entité "Game" pour représenter les parties jouées, avec des
+                champs tels que le nombre de clics et la date de la partie. En utilisant les migrations Symfony, j'ai
+                envoyé cette structure de table dans ma base de données.
+                La page d'accueil affiche un classement général trié par le nombre de clics, et l'inscription est rendue
+                obligatoire pour jouer. J'ai également ajouté des fonctionnalités optionnelles, telles que la
+                confirmation d'adresse e-mail à l'inscription, la suppression de parties, la possibilité de changer de
+                mot de passe et d'e-mail, ainsi que la possibilité de se déconnecter.
+            </p>
+
+        </div>
+
+    </div>
+
+    <div id="Projets" class="container mt-5 ">
+        <h1 class="fs-1">Mes Projets</h1>
+        <p class="fs-5 ">Voici quelques uns de mes projets que j'ai réalisés durant ma formation. (Source Code)</p>
+        <div class="projet m-3 mt-5">
+
+            <div class="cartes">
+
+                <div class="carte" onclick="openPopUp1()">
                     <img src="img/ecommerce.png"></img>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla quaerat quo molestiae quasi ratione itaque eveniet recusandae. Totam dolorum, officiis quaerat fuga, quo distinctio dicta amet ullam quas sunt ducimus.</p>
+                    <span>Site E-commerce</span>
                 </div>
 
-                <div class="cartes ">
-
-                    <div class="carte" onclick="popUp();" >
-                        <img src="img/ecommerce.png"></img>
-                        
-                        <a href="https://gitlab.com/boubacar5/portfolio" target="_blank"><span>Site E-commerce</span></a>
-                     
-                    </div>
-
-                    <div class="carte">
-                        <img src="img/login.png"></img>
-                        <a href="https://github.com/boubacargadio/JavaSpring/tree/master/src/main/java/com/example/javaspringexo/autorisations"
-                            target="_blank"><span>Login - Security Spring</span></a>
-                    </div>
-                    <div class="carte">
-                        <img src="img/meal_Db.png"></img>
-                        <a href="https://gitlab.com/boubacar5/cuisineapi.git" target="_blank"><span>Conception Api -
-                                "The Meal DB"</span></a>
-                    </div>
-                    <div class="carte">
-                        <img src="imgLanguage/java-original.svg"></img>
-                        <a href="https://github.com/boubacargadio/JavaExo/tree/boubacar/src"
-                            target="_blank"><span>Conception POO - Java</span></a>
-                    </div>
-                    <div class="carte">
-                        <img src="imgLanguage/brand-symfony.svg"></img>
-                        <a href="https://gitlab.com/boubacar5/jeucarresymfony.git" target="_blank"><span>Project
-                                Symfony</span></a>
-                    </div>
-
+                <div class="carte" onclick="openPopUp2()">
+                    <img src="img/login.png"></img>
+                    <span>Login - Security Spring</span>
                 </div>
+                <div class="carte" onclick="openPopUp3()">
+                    <img src="img/meal_Db.png"></img>
+                    <span>Conception Api - "The Meal DB"</span>
+                </div>
+                <div class="carte" onclick="openPopUp4()">
+                    <img src="imgLanguage/java-original.svg"></img>
+                    <span>Conception POO - Java</span>
+                </div>
+                <div class="carte" onclick="openPopUp5()">
+                    <img src="imgLanguage/brand-symfony.svg"></img> <br>
+                    <span>Projet Symfony</span>
+                </div>
+
             </div>
         </div>
+    </div>
 
 </body>
 <footer class=" p-3 mt-5">
