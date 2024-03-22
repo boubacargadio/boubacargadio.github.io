@@ -381,7 +381,7 @@ strong {
 
 .pop-up .imgProjet {
     max-width: 300px;
-    max-height: 200px;
+    max-height: 175px;
     border-radius: 1rem;
 }
 
@@ -390,6 +390,8 @@ strong {
     max-height: 70px;
     border-radius: 1rem; 
 }
+
+
 .popUps p{
     font-weight: 300;
 }
