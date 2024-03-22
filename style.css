@@ -391,7 +391,6 @@ strong {
     border-radius: 1rem; 
 }
 
-
 .popUps p{
     font-weight: 300;
 }
@@ -413,8 +412,8 @@ strong {
     border-radius: 1rem;
     font-size: 0.8rem;
     position: absolute;
-    top: 2rem;
-    right: 1rem;
+    top: 1.5rem;
+    right: 2rem;
 }
 
 .fermer:hover{
@@ -424,7 +423,6 @@ strong {
 }
 
 .lienSource{
-   
     width: 150px;
     height: 40px;
     border-radius: 1rem;
@@ -434,7 +432,6 @@ strong {
     box-shadow: 10 5 10px rgb(0, 0, 0);
     background-color: #000000;
     color: #ffffff;
-
 }
 .lienSource:hover{
     background-color: rgb(61, 61, 61);
@@ -454,12 +451,135 @@ strong {
     text-decoration: none;
     color: black;
 }
+.pop-up h1{
+    font-size: 2rem;
+}
+
+@media screen and (max-width:1150px) {
+    .pop-up {
+        width: 55%;
+    }
+    .pop-up h1{
+        font-size: 1.5rem;
+    }
+    .pop-up .imgProjet {
+        max-width: 200px;
+        max-height: 175px;
+    }
+    .pop-up .imgGit {
+        width: 50px;
+        max-height: 50px;
+        border-radius: 1rem; 
+    }
+    .lienSource{
+        width: 120px;
+        height: 30px;
+        font-size: 0.7rem;
+    }
+    .lien{
+        position: absolute;
+        top: 6rem;
+        right: 5rem;
+    }
+    .fermer{
+        width: 50px;
+        height: 25px;
+        top: 1.5rem;
+        right: 2rem;
+        font-size: 0.7rem;
+    }
+}
 
 
+@media screen and (max-width:957px) {
+    .pop-up {
+        width: 80%;
+    }
+    .lien{
+        position: absolute;
+        top: 6rem;
+        right: 3rem;
+    }
+}
+
+@media screen and (max-width:499px) {
+    .pop-up {
+        width: 90%;
+    }
+    .pop-up h1{
+        font-size: 1.5rem;
+    }
+    .pop-up p{
+        font-size: 0.9rem;
+    }
+    .pop-up .imgProjet {
+        max-width: 200px;
+        max-height: 175px;
+    }
+    .pop-up .imgGit {
+        width: 40px;
+        max-height: 70px;
+        border-radius: 1rem; 
+    }
+    .lienSource{
+        width: 100px;
+        height: 30px;
+    }
+    .lien{
+        position: absolute;
+        top: 6rem;
+        right: 3rem;
+    }
+    .fermer{
+        width: 50px;
+        height: 25px;
+        top: 1.5rem;
+        right: 2rem;
+        font-size: 0.7rem;
+    }
+   
+}
+@media screen and (max-width:469px) {
+    .pop-up {
+        width: 95%;
+    }
+    .pop-up h1{
+        font-size: 1.5rem;
+    }
+    .pop-up p{
+        font-size: 0.9rem;
+    }
+    .pop-up .imgProjet {
+        max-width: 200px;
+        max-height: 175px;
+    }
+    .pop-up .imgGit {
+        width: 40px;
+        max-height: 70px;
+        border-radius: 1rem; 
+    }
+    .lienSource{
+        width: 100px;
+        height: 30px;
+        font-size: 0.5rem;
+    }
+    .lien{
+        position: absolute;
+        top: 6.5rem;
+        right: 2rem;
+    }
+    .fermer{
+        width: 50px;
+        height: 25px;
+        top: 1.5rem;
+        right: 2rem;
+        font-size: 0.6rem;
+    }
+
+}
 
 @media screen and (max-width:767px) {
     
-
     iframe {
         width: 100%;
         margin-top: 2rem;     
@@ -467,8 +587,6 @@ strong {
 }
 
 @media screen and (max-width:407px) {
-    
-
     .mail {
         font-size:0.8rem ;
         
