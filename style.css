@@ -390,10 +390,13 @@ strong {
     max-height: 70px;
     border-radius: 1rem; 
 }
+.popUps p{
+    font-weight: 300;
+}
 .lien{
     position: absolute;
     top: 7rem;
-    right: 5rem;
+    right: 7rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -420,7 +423,7 @@ strong {
 
 .lienSource{
    
-    width: 200px;
+    width: 150px;
     height: 40px;
     border-radius: 1rem;
     border: none;
