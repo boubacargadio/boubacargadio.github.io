@@ -104,7 +104,7 @@ strong {
 }
 @media screen and (max-width:554px) {
     .bienvenue {
-        font-size: 0.9rem;
+        font-size: 0.7rem;
         display: block;
         align-items: center;
         justify-content: center;
@@ -348,7 +348,7 @@ strong {
 
 .cartes {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
     gap: 2rem;
 }
 
@@ -405,6 +405,7 @@ strong {
 }
 
 .fermer{
+    text-decoration: none;
     border: 1px solid black;
     background-color: transparent;
     width: 70px;
@@ -414,6 +415,8 @@ strong {
     position: absolute;
     top: 1.5rem;
     right: 2rem;
+    color: white;
+
 }
 
 .fermer:hover{
@@ -462,6 +465,7 @@ strong {
         width: 100%;
         display: flex;
         justify-content: center;
+        
     }    
 }
 
